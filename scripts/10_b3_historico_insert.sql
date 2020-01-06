@@ -1,0 +1,57 @@
+insert into tb_b3_historico_pregao
+(
+    tp_registro
+    ,dt_pregao
+    ,cd_bdi
+    ,cd_negociacao
+    ,tp_mercado
+    ,nm_ativo
+    ,tp_especificacao
+    ,nr_dias_vencimento_termo
+    ,cd_moeda
+    ,vl_abertura
+    ,vl_maxima
+    ,vl_minima
+    ,vl_medio
+    ,vl_ultimo
+    ,vl_melhor_compra
+    ,vl_melhor_venda
+    ,vl_total_negocio
+    ,vl_total_quantidade
+    ,vl_total_financeiro
+    ,vl_strike
+    ,vl_strikeCorrection
+    ,dt_vencimento
+    ,vl_fator_cotacao
+    ,vl_strike_usd_points
+    ,cd_isin
+    ,cd_distribuicao
+)
+values (
+     :Type
+    ,:TradeDate
+    ,:BDICode
+    ,:Ticker
+    ,:MarketTypeCode
+    ,:ShortName
+    ,:Specification
+    ,:ForwardDaysToExpiry
+    ,:ReferenceCurrency
+    ,:Opening
+    ,:Maximum
+    ,:Minimum
+    ,:Average
+    ,:Last
+    ,:BestBidPrice
+    ,:BestAskPrice
+    ,:TradeQuantity
+    ,:ContractQuantity
+    ,:FinancialVolume
+    ,:StrikePrice
+    ,:StrikePriceCorrectionIndicator
+    ,:ExpiryDate
+    ,:QuoteFactor
+    ,:DollarOptionPointsStrikePrice
+    ,:ISIN
+    ,:InstrumentDistributionNumber
+)
